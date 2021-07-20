@@ -1,0 +1,172 @@
+body {
+	font-family: "Trebuchet MS", "Arial", sans-serif;
+}
+
+#menu h1 {
+	color: #4C4439;
+	display: inline-block;
+	font-size: 50px;
+	position: absolute;
+	left: 585px;
+	margin: 0px;
+	top: 30px;
+}
+
+#menu h2 {
+	color: rgb(255,255,255);
+	display: inline-block;
+	font-size: 50px;
+	position: absolute;
+	left: 665px;
+	margin: 0px;
+	top: 30px;
+}
+
+#menu a:link{
+	padding: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+#menu a:visited{
+	padding: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#menu a:hover{
+	background-color: #FFFFFF;
+	color: #FFC400;
+
+}
+#menu a:active{
+	color: #FFC400;
+}
+
+#menu ul{
+	list-style: none;
+	position: absolute;
+	top: 120px;
+	left: 320px;
+}
+
+#menu {
+	background-color: #FFC400;
+	height: 200px;
+	position: relative;
+}
+
+#conteudo {
+	width: 900px;
+	margin: 2px auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.noticia {
+	background-color: rgb(255,255,255);
+	padding: 20px;
+	width: 500px;
+	float: left;
+	margin: 20px 0px 0px 20px;
+}
+
+.noticia img {
+	width: 480px;
+	margin: 20px 0px 0px 10px;
+}
+
+.noticia h1 {
+	color: #FFC400;
+	font-size: 30px;
+	margin: 5px 5px 0px 5px;
+}
+
+.noticia h2 {
+	font-size: 15px;
+	margin: 0px 5px;
+}
+
+.noticia p {
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px 10px; 
+}
+
+.noticia a {
+	font-size: 13px;
+	margin: 0px;
+	padding-left: 10px; 
+	text-decoration: none;
+	color: #FFC400;
+}
+
+body {
+	background-color: #F8F8F8;
+}
+
+#recentes {
+	background-color: rgb(255,255,255);
+	width: 280px;
+	float: right;
+	margin: 20px 20px 0px 20px;
+	padding: 10px;
+}
+
+#recentes h1 {
+	background-color: #a9a9a9;
+	padding: 5px;
+	font-size: 20px;
+	margin: 0px;
+	color: #333333;
+}
+
+#recentes p {
+	font-size: 13px;
+	margin: 5px;
+}
+
+#recentes a {
+	font-size: 13px;
+	margin: 5px;
+	color: #FFC400;
+	text-decoration: none;
+}
+
+#categorias {
+	background-color: rgb(255,255,255);
+	width: 280px;
+	float: right;
+	margin: 20px 20px 0px 20px;
+	padding: 10px;
+}
+
+#categorias h1 {
+	background-color: #a9a9a9;
+	padding: 5px;
+	font-size: 20px;
+	margin: 0px;
+	color: #333333;
+}
+
+#categorias a {
+	font-size: 16px;
+	padding: 10px 5px; 
+	color: #FFC400;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#rodape {
+	padding: 20px;
+	margin: 20px auto;
+	width: 820px;
+	background-color: #808080;
+	text-align: center;
+	font-weight: bold;
+}
